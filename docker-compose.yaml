@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  scanner:
+    restart: always
+    build: .
+    container_name: scanner
+    command: /usr/bin/supervisord -n -c /usr/src/app/master/supervisord.conf
+    volumes:
+      - ./:/usr/src/app/master
+      - ../logs/scanner:/usr/src/app/logs

@@ -1,0 +1,13 @@
+# pycharm
+
+.idea/*
+
+*.pyc
+
+celerybeat-schedule
+*.pid
+Pipfile
+Pipfile.lock
+log/monitor.log
+chromedriver
+test.py

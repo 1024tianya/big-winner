@@ -1,5 +1,5 @@
-#大赢家根据规则自动下注脚本
-
+大赢家根据规则自动下注脚本
+__________________
 [![Python 3.6](https://img.shields.io/badge/python-3.6-yellow.svg)](https://www.python.org/)
 
 ### 环境设置
